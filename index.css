@@ -224,6 +224,27 @@
     outline: none;
     box-shadow: 0 8px 20px var(--color-btn-shadow);
   }
+   .btn-secondary {
+      display: inline-block;
+      background: #fff;
+      color: #7b3fbf;
+      font-weight: 600;
+      padding: 0.75rem 2rem;
+      border-radius: 50px;
+      border: 2px solid #7b3fbf;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.4s ease, color 0.4s ease;
+      box-shadow: 0 6px 15px rgba(123,63,191,0.2);
+      text-align: center;
+    }
+    .btn-secondary:hover,
+    .btn-secondary:focus {
+      background: #7b3fbf;
+      color: white;
+      outline: none;
+      box-shadow: 0 8px 20px rgba(123,63,191,0.6);
+    }
   .hero-img {
     flex: 1 1 280px;
     max-width: 280px;
